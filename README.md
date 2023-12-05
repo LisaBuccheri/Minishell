@@ -1,6 +1,19 @@
 # Minishell
-L’objectif de ce projet est de créer un shell minimaliste.
+The aim of this project was to create a minimalist shell. We were a group of 3 student. 
 
-Faire un make pour compiler le projet, make re pour fclean et recompiler. Puis lancer le programme ./minishell. 
+Our shell had implement redirections, pipes, the following builtins:
+  ◦ echo and the -n option
+  ◦ cd only with a relative or absolute path
+  ◦ pwd without any option
+  ◦ export without any option
+  ◦ unset with no options
+  ◦ env with no options or arguments
+  ◦ exit with no options
+Manage environment variables, $?, ctrl-C, ctrl-D and ctrl-\, which must function as in bash. 
+We have learned more about processes and file descriptors. 
 
-Le systeme d'exploitation utilisé est MacOS, je ne peux pas garantir la réussite de la compilation sur un autre système.
+ ### Skills
+
+- Unix
+- Rigor
+- Imperative programming 
